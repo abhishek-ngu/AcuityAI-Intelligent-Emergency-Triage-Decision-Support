@@ -1,7 +1,7 @@
-# PatientTriage.ai - Round 2 Prototype
+# Acuity AI - Clinical Decision Support
 
 ## Overview
-PatientTriage.ai is an offline, safety-first clinical decision-support application built for emergency department triage nurses. It helps identify low-risk adult cases for Fast-Track while prioritizing patient safety.
+Acuity AI is an offline, safety-first clinical decision-support application built for emergency department triage nurses. It helps identify low-risk adult cases for Fast-Track while prioritizing patient safety.
 
 ## Key Features
 - **Nurse-in-the-Loop:** Clinical decision support only. Nurse confirmation is strictly required.

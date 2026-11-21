@@ -9,8 +9,8 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime, timezone
 
-from patienttriage.audit import AuditTrail
-from patienttriage.domain import (
+from acuity_ai.audit import AuditTrail
+from acuity_ai.domain import (
     TriageAssessment,
     DecisionPayload,
     ReassessmentEvent,

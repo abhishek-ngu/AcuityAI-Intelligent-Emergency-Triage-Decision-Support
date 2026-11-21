@@ -1,7 +1,7 @@
 [project]
-name = "patienttriage-round2"
+name = "acuity-ai"
 version = "0.1.0"
-description = "Offline, safety-first PatientTriage.ai Round 2 prototype"
+description = "Offline, safety-first Acuity AI clinical decision-support prototype"
 requires-python = ">=3.10"
 dependencies = [
   "streamlit>=1.37",

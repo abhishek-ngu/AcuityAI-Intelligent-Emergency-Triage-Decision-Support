@@ -1,6 +1,6 @@
 # Architecture
 
-PatientTriage.ai is designed with a strict clinical decision-support boundary.
+Acuity AI is designed with a strict clinical decision-support boundary.
 
 1. **Intake Payload:** Captured via single form or batch CSV/Excel.
 2. **Safety Gate (`policy.py`):** Runs configurable rules (e.g. pediatric age < 18, missing vitals).

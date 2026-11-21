@@ -1,7 +1,7 @@
 import pytest
 from pathlib import Path
-from patienttriage.policy import SafetyPolicy
-from patienttriage.domain import IntakePayload
+from acuity_ai.policy import SafetyPolicy
+from acuity_ai.domain import IntakePayload
 
 @pytest.fixture
 def policy():

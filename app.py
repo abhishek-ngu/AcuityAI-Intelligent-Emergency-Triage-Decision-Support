@@ -6,15 +6,15 @@ import io
 from pathlib import Path
 from datetime import datetime, timezone
 
-from patienttriage.domain import IntakePayload, DecisionPayload, VitalsPayload, ReassessmentEvent
-from patienttriage.policy import SafetyPolicy
-from patienttriage.model import TriageModel
-from patienttriage.audit import AuditTrail
-from patienttriage.service import TriageService
-from patienttriage.queue import PatientQueue
-from patienttriage.ehr import EhrAdapter
+from acuity_ai.domain import IntakePayload, DecisionPayload, VitalsPayload, ReassessmentEvent
+from acuity_ai.policy import SafetyPolicy
+from acuity_ai.model import TriageModel
+from acuity_ai.audit import AuditTrail
+from acuity_ai.service import TriageService
+from acuity_ai.queue import PatientQueue
+from acuity_ai.ehr import EhrAdapter
 
-st.set_page_config(page_title="PatientTriage.ai", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Acuity AI", layout="wide", initial_sidebar_state="expanded")
 
 # --- INITIALIZATION ---
 @st.cache_resource

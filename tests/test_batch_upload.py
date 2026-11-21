@@ -1,6 +1,6 @@
 import pytest
-from patienttriage.domain import IntakePayload
-from patienttriage.queue import PatientQueue
+from acuity_ai.domain import IntakePayload
+from acuity_ai.queue import PatientQueue
 
 def test_queue_sorting():
     q = PatientQueue()
